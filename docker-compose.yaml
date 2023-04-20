@@ -13,7 +13,7 @@ services:
       - ./certs:/etc/nginx/certs
 
   proxy-companion:
-    image: registry.artifakt.io/nginx-proxy-companion:latest
+    image: brunooger/nginx-proxy-companion:latest
     restart: always
     environment:
       - "NGINX_PROXY_CONTAINER=base-wordpress-proxy"
