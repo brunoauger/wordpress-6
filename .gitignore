@@ -1,0 +1,8 @@
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+.history
+certs/*.crt
+certs/*.key
